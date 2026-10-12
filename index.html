@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ksav | Study 02</title>
+  <link rel="stylesheet" href="assets/proof-fonts.css">
+  <style>
+    :root { --ink: #232323; --muted: #666; --line: #d6d6d2; --accent: #9a3037; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: #fafaf8; font-family: Georgia, serif; letter-spacing: 0; }
+    main { max-width: 1120px; margin: 0 auto; padding: 32px; }
+    header { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; padding-bottom: 24px; border-bottom: 2px solid var(--ink); }
+    h1 { margin: 0; font-size: 28px; font-weight: normal; }
+    .edition { font-size: 14px; color: var(--accent); }
+    h2 { margin: 0; font-size: 18px; font-weight: normal; }
+    .comparison { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .study { min-width: 0; padding: 28px 24px 24px 0; }
+    .study + .study { padding-left: 24px; padding-right: 0; border-left: 1px solid var(--line); }
+    .study-title { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+    .study-title span, .size-label { font-size: 12px; color: var(--muted); }
+    .faithful { font-family: "Ksav Faithful"; }
+    .refined { font-family: "Ksav Refined"; }
+    .word { direction: rtl; text-align: center; line-height: 1.35; margin: 18px 0; font-weight: normal; }
+    .large { font-size: 100px; }
+    .medium { font-size: 52px; }
+    .small { font-size: 30px; }
+    .glyphs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); direction: rtl; margin-top: 28px; border-top: 1px solid var(--line); }
+    .glyphs span { text-align: center; font-size: 60px; line-height: 1.7; }
+    .downloads { margin-top: 10px; font-size: 14px; }
+    a { color: var(--accent); text-underline-offset: 4px; }
+    nav { padding-top: 18px; font-size: 14px; }
+    .source { padding-top: 26px; border-top: 2px solid var(--ink); }
+    .source h2 { margin-bottom: 18px; }
+    .source img { display: block; width: 100%; height: auto; }
+    footer { margin-top: 24px; font-size: 13px; color: var(--muted); }
+    @media (max-width: 640px) {
+      main { padding: 20px; }
+      header { flex-wrap: wrap; }
+      .comparison { grid-template-columns: 1fr; }
+      .study, .study + .study { padding: 24px 0; border-left: 0; }
+      .study + .study { border-top: 1px solid var(--line); }
+      .large { font-size: 82px; }
+    }
+    @media print { body { background: white; } main { padding: 0; } .downloads { display: none; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header><h1>Ksav / Study 02</h1><span class="edition">Four-letter draft</span></header>
+    <nav><a href="alphabet.html">Alphabet draft</a></nav>
+    <div class="comparison">
+      <section class="study" aria-labelledby="faithful-title">
+        <div class="study-title"><h2 id="faithful-title">Faithful trace</h2><span>01</span></div>
+        <div class="word large faithful" lang="he" dir="rtl">שמים</div>
+        <span class="size-label">52 px</span>
+        <div class="word medium faithful" lang="he" dir="rtl">שמים</div>
+        <span class="size-label">30 px</span>
+        <div class="word small faithful" lang="he" dir="rtl">שמים</div>
+        <div class="glyphs faithful" lang="he" aria-label="Shin, mem, yod, final mem"><span>ש</span><span>מ</span><span>י</span><span>ם</span></div>
+        <div class="downloads"><a href="assets/ksav-faithful-draft.otf" download>Faithful draft .otf</a></div>
+      </section>
+      <section class="study" aria-labelledby="refined-title">
+        <div class="study-title"><h2 id="refined-title">Faithful, refined</h2><span>02</span></div>
+        <div class="word large refined" lang="he" dir="rtl">שמים</div>
+        <span class="size-label">52 px</span>
+        <div class="word medium refined" lang="he" dir="rtl">שמים</div>
+        <span class="size-label">30 px</span>
+        <div class="word small refined" lang="he" dir="rtl">שמים</div>
+        <div class="glyphs refined" lang="he" aria-label="Shin, mem, yod, final mem"><span>ש</span><span>מ</span><span>י</span><span>ם</span></div>
+        <div class="downloads"><a href="assets/ksav-refined-draft.otf" download>Refined draft .otf</a></div>
+      </section>
+    </div>
+    <section class="source"><h2>Source letters</h2><img src="assets/letter-selection.png" width="1760" height="440" alt="Four cropped handwritten letters, ordered shin, mem, yod and final mem from left to right."></section>
+    <footer>Draft 02 · ש מ י ם</footer>
+  </main>
+</body>
+</html>

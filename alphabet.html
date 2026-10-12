@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ksav | Alphabet Draft</title>
+  <link rel="stylesheet" href="assets/proof-fonts.css">
+  <style>
+    :root { --ink: #232323; --muted: #666; --line: #d6d6d2; --accent: #9a3037; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: #fafaf8; font-family: Georgia, serif; letter-spacing: 0; }
+    main { max-width: 1120px; margin: 0 auto; padding: 32px; }
+    header { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; padding-bottom: 24px; border-bottom: 2px solid var(--ink); }
+    h1 { margin: 0; font-size: 28px; font-weight: normal; }
+    .edition { color: var(--accent); font-size: 14px; }
+    nav { display: flex; flex-wrap: wrap; gap: 24px; padding: 18px 0; font-size: 14px; }
+    a { color: var(--accent); text-underline-offset: 4px; }
+    h2 { margin: 0 0 20px; font-size: 20px; font-weight: normal; }
+    section { padding: 26px 0; border-top: 1px solid var(--line); }
+    .alphabet { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); direction: rtl; border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+    .letter { min-width: 0; height: 186px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); text-align: center; }
+    .glyph { display: block; height: 144px; font-family: "Ksav Alphabet"; font-size: 64px; line-height: 2.2; }
+    .name { display: block; direction: ltr; color: var(--muted); font-size: 12px; line-height: 20px; }
+    .samples { font-family: "Ksav Alphabet"; direction: rtl; text-align: right; }
+    .samples p { margin: 0; line-height: 2.25; overflow-wrap: anywhere; }
+    .display { font-size: 48px; }
+    .reading { font-size: 30px; }
+    .fine { font-size: 22px; }
+    .size-label { display: block; margin-top: 16px; color: var(--muted); font-size: 12px; }
+    img { display: block; width: 100%; height: auto; margin-top: 18px; }
+    summary { cursor: pointer; font-size: 16px; }
+    footer { padding-top: 20px; border-top: 2px solid var(--ink); color: var(--muted); font-size: 13px; line-height: 1.6; }
+    @media (max-width: 640px) {
+      main { padding: 20px; }
+      header { flex-wrap: wrap; gap: 10px; }
+      .alphabet { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .display { font-size: 36px; }
+    }
+    @media print { body { background: white; } main { padding: 0; } nav { display: none; } .letter { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header><h1>Ksav / Alphabet</h1><span class="edition">Draft 03 · 27 forms</span></header>
+    <nav><a href="index.html">Four-letter comparison</a><a href="assets/ksav-alphabet-draft.otf" download>Download alphabet .otf</a></nav>
+    <section>
+      <h2>Letterforms</h2>
+      <div class="alphabet" lang="he">
+        <div class="letter"><span class="glyph">א</span><span class="name">Aleph</span></div>
+        <div class="letter"><span class="glyph">ב</span><span class="name">Bet</span></div>
+        <div class="letter"><span class="glyph">ג</span><span class="name">Gimel</span></div>
+        <div class="letter"><span class="glyph">ד</span><span class="name">Dalet</span></div>
+        <div class="letter"><span class="glyph">ה</span><span class="name">He</span></div>
+        <div class="letter"><span class="glyph">ו</span><span class="name">Vav</span></div>
+        <div class="letter"><span class="glyph">ז</span><span class="name">Zayin</span></div>
+        <div class="letter"><span class="glyph">ח</span><span class="name">Het</span></div>
+        <div class="letter"><span class="glyph">ט</span><span class="name">Tet</span></div>
+        <div class="letter"><span class="glyph">י</span><span class="name">Yod</span></div>
+        <div class="letter"><span class="glyph">כ</span><span class="name">Kaf</span></div>
+        <div class="letter"><span class="glyph">ך</span><span class="name">Final Kaf</span></div>
+        <div class="letter"><span class="glyph">ל</span><span class="name">Lamed</span></div>
+        <div class="letter"><span class="glyph">מ</span><span class="name">Mem</span></div>
+        <div class="letter"><span class="glyph">ם</span><span class="name">Final Mem</span></div>
+        <div class="letter"><span class="glyph">נ</span><span class="name">Nun</span></div>
+        <div class="letter"><span class="glyph">ן</span><span class="name">Final Nun</span></div>
+        <div class="letter"><span class="glyph">ס</span><span class="name">Samekh</span></div>
+        <div class="letter"><span class="glyph">ע</span><span class="name">Ayin</span></div>
+        <div class="letter"><span class="glyph">פ</span><span class="name">Pe</span></div>
+        <div class="letter"><span class="glyph">ף</span><span class="name">Final Pe</span></div>
+        <div class="letter"><span class="glyph">צ</span><span class="name">Tsadi</span></div>
+        <div class="letter"><span class="glyph">ץ</span><span class="name">Final Tsadi</span></div>
+        <div class="letter"><span class="glyph">ק</span><span class="name">Qof</span></div>
+        <div class="letter"><span class="glyph">ר</span><span class="name">Resh</span></div>
+        <div class="letter"><span class="glyph">ש</span><span class="name">Shin</span></div>
+        <div class="letter"><span class="glyph">ת</span><span class="name">Tav</span></div>
+      </div>
+    </section>
+    <section>
+      <h2>Word Studies</h2>
+      <div class="samples display" lang="he" dir="rtl">
+        <p>ספרים על המדף</p>
+        <p>מכתב קטן ליד החלון</p>
+        <p>גשם ורוח בחוץ</p>
+        <p>טקסט ברור ונעים</p>
+        <p>צליל זך</p>
+        <p>אותיות מרובעות</p>
+      </div>
+    </section>
+    <section>
+      <h2>Reading Studies</h2>
+      <span class="size-label">30 px</span>
+      <div class="samples reading" lang="he" dir="rtl"><p>ספרים על המדף מכתב קטן ליד החלון גשם ורוח בחוץ טקסט ברור ונעים צליל זך אותיות מרובעות</p></div>
+      <span class="size-label">22 px</span>
+      <div class="samples fine" lang="he" dir="rtl"><p>ספרים על המדף מכתב קטן ליד החלון גשם ורוח בחוץ טקסט ברור ונעים צליל זך אותיות מרובעות</p></div>
+    </section>
+    <section><details><summary>Source Samples</summary><img src="assets/alphabet-source-selection.png" width="1120" height="800" alt="Labelled crops of the 27 original handwritten letterforms."></details></section>
+    <footer>First alphabet draft. Spacing, proportions and contours pending refinement. Vowels and cantillation marks not included.</footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,262 @@
+{
+  "source": "/home/hydrochilli/Documents/Sofrus/1000005532.jpg",
+  "letters": [
+    {
+      "name": "aleph",
+      "unicode": 1488,
+      "left": 872,
+      "top": 30,
+      "width": 92,
+      "height": 119
+    },
+    {
+      "name": "bet",
+      "unicode": 1489,
+      "left": 2435,
+      "top": 530,
+      "width": 78,
+      "height": 100
+    },
+    {
+      "name": "gimel",
+      "unicode": 1490,
+      "left": 1479,
+      "top": 1105,
+      "width": 41,
+      "height": 109
+    },
+    {
+      "name": "dalet",
+      "unicode": 1491,
+      "left": 2406,
+      "top": 276,
+      "width": 73,
+      "height": 103
+    },
+    {
+      "name": "he",
+      "unicode": 1492,
+      "left": 1008,
+      "top": 55,
+      "width": 60,
+      "height": 99
+    },
+    {
+      "name": "vav",
+      "unicode": 1493,
+      "left": 603,
+      "top": 49,
+      "width": 38,
+      "height": 105
+    },
+    {
+      "name": "zayin",
+      "unicode": 1494,
+      "left": 1434,
+      "top": 638,
+      "width": 44,
+      "height": 110
+    },
+    {
+      "name": "het",
+      "unicode": 1495,
+      "left": 798,
+      "top": 28,
+      "width": 67,
+      "height": 125
+    },
+    {
+      "name": "tet",
+      "unicode": 1496,
+      "left": 263,
+      "top": 506,
+      "width": 67,
+      "height": 119
+    },
+    {
+      "name": "yod",
+      "unicode": 1497,
+      "left": 191,
+      "top": 2413,
+      "width": 40,
+      "height": 80
+    },
+    {
+      "name": "final-kaf",
+      "unicode": 1498,
+      "left": 403,
+      "top": 295,
+      "width": 63,
+      "height": 132,
+      "baseline": -330,
+      "exclude": [
+        {
+          "left": 0,
+          "top": 110,
+          "width": 47,
+          "height": 22
+        }
+      ]
+    },
+    {
+      "name": "kaf",
+      "unicode": 1499,
+      "left": 795,
+      "top": 411,
+      "width": 66,
+      "height": 85
+    },
+    {
+      "name": "lamed",
+      "unicode": 1500,
+      "left": 1898,
+      "top": 5,
+      "width": 74,
+      "height": 145
+    },
+    {
+      "name": "final-mem",
+      "unicode": 1501,
+      "left": 121,
+      "top": 2423,
+      "width": 72,
+      "height": 80
+    },
+    {
+      "name": "mem",
+      "unicode": 1502,
+      "left": 229,
+      "top": 2400,
+      "width": 79,
+      "height": 100
+    },
+    {
+      "name": "final-nun",
+      "unicode": 1503,
+      "left": 1092,
+      "top": 420,
+      "width": 63,
+      "height": 136,
+      "baseline": -380,
+      "exclude": [
+        {
+          "left": 0,
+          "top": 110,
+          "width": 45,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "name": "nun",
+      "unicode": 1504,
+      "left": 1290,
+      "top": 35,
+      "width": 47,
+      "height": 126
+    },
+    {
+      "name": "samekh",
+      "unicode": 1505,
+      "left": 1740,
+      "top": 1120,
+      "width": 68,
+      "height": 82
+    },
+    {
+      "name": "ayin",
+      "unicode": 1506,
+      "left": 740,
+      "top": 273,
+      "width": 75,
+      "height": 114,
+      "sizeScale": 0.77
+    },
+    {
+      "name": "final-pe",
+      "unicode": 1507,
+      "left": 1234,
+      "top": 1460,
+      "width": 74,
+      "height": 137,
+      "baseline": -330,
+      "exclude": [
+        {
+          "left": 0,
+          "top": 108,
+          "width": 55,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "name": "pe",
+      "unicode": 1508,
+      "left": 201,
+      "top": 510,
+      "width": 67,
+      "height": 122,
+      "sizeScale": 0.845
+    },
+    {
+      "name": "final-tsadi",
+      "unicode": 1509,
+      "left": 1234,
+      "top": 1687,
+      "width": 77,
+      "height": 143,
+      "baseline": -320,
+      "exclude": [
+        {
+          "left": 0,
+          "top": 96,
+          "width": 23,
+          "height": 47
+        }
+      ]
+    },
+    {
+      "name": "tsadi",
+      "unicode": 1510,
+      "left": 1196,
+      "top": 272,
+      "width": 76,
+      "height": 117,
+      "sizeScale": 0.9
+    },
+    {
+      "name": "qof",
+      "unicode": 1511,
+      "left": 1947,
+      "top": 520,
+      "width": 70,
+      "height": 139,
+      "baseline": -310
+    },
+    {
+      "name": "resh",
+      "unicode": 1512,
+      "left": 2033,
+      "top": 60,
+      "width": 66,
+      "height": 92
+    },
+    {
+      "name": "shin",
+      "unicode": 1513,
+      "left": 298,
+      "top": 2388,
+      "width": 109,
+      "height": 104
+    },
+    {
+      "name": "tav",
+      "unicode": 1514,
+      "left": 1350,
+      "top": 530,
+      "width": 79,
+      "height": 96
+    }
+  ],
+  "status": "Draft; all 27 forms require visual review."
+}
